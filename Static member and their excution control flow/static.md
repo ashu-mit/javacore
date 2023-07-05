@@ -24,3 +24,9 @@ static block,we need to use class name to call it
 >>static variables
 
 
+static variables loaded in the memory with the time of loading class
+
+**NOTE->A static variable in Java exists for the entire duration of the program, from the time it is initialized to the time the program terminates.It is important to note that a static variable can be accessed even before an object of the class is created, as it belongs to the class and not to any particular instance of the class.**
+
+**NOTE->In Java, global static variables are stored in the static memory area. The static memory area is a region of memory used to store class-level data, including static variables and static methods.
+Static variables are initialized when the class is loaded into memory, and their memory is allocated in the static memory area**
