@@ -30,3 +30,11 @@ static variables loaded in the memory with the time of loading class
 
 **NOTE->In Java, global static variables are stored in the static memory area. The static memory area is a region of memory used to store class-level data, including static variables and static methods.
 Static variables are initialized when the class is loaded into memory, and their memory is allocated in the static memory area**
+```
+valueOf(): Returns an Integer object that represents the specified int value.
+toString(): Returns a String object representing the value of the Integer object.
+intValue(): Returns the value of the Integer object as a primitive int.
+parseInt(): Parses the string argument as a signed decimal integer and returns the corresponding int value.
+myArray.length: myArray.length is a Java expression that returns the number of elements in an array called myArray.
+```
+![img_1.png](img_1.png)
