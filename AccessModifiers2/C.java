@@ -9,7 +9,7 @@ public class C extends A {
 
 
         C obj1=new C();
-        ;System.out.println(obj1.k);  //protected fields can be inherited and accessed
-        obj1.lSystem.out.println(obj.l);    //public
+        System.out.println(obj1.k);  //protected fields can be inherited and accessed
+        System.out.println(obj.l);    //public
     }
 }
